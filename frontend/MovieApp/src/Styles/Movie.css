@@ -1,0 +1,57 @@
+*::after,*::before 
+{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.options .links 
+{ 
+    text-decoration: none;
+    color: black;
+}
+.body-content
+{ 
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 6rem;
+    margin-top: 3rem;
+    
+}
+.movie-card
+{
+    margin:10px 0px 10px 35px;  
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    row-gap:7px;
+
+    background-color: thistle;
+}
+.movie-poster
+{ 
+    width: 160px;
+    max-height: 200px;
+    margin: auto;
+    margin-top: 3px;
+}
+.data
+{
+    display: flex;
+    /* border: 2px solid green; */
+    align-items: center;
+   /* column-gap: 10px; */
+   margin-left: 10px;
+   margin-right: 15px;
+   margin-bottom: 10px;
+   height: 20px;
+   justify-content: space-around;
+   /* min-width: 12rem; */
+}
+
+.data p 
+{ 
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+}

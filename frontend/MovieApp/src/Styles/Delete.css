@@ -1,0 +1,89 @@
+*::after,*::before
+{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.delete-body
+{ 
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    margin: 3rem 0px 0px 8rem;
+}
+.component-title
+{ 
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight:bold;
+    line-height: 5px;
+}
+
+.delete-form
+{ 
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    /* border: 2px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.movie-name-field
+{ 
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    max-width: 20rem;
+    align-items: baseline;
+    margin-left: 3px;
+}
+
+.movie-name-field input
+{
+    border: 1px solid black;
+    height: 25px;
+    border-radius: 3px;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    /* color:bla; */
+}
+
+.confirmation
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+    row-gap: 5px;
+}
+label 
+{ 
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input:hover
+{ 
+    cursor: pointer;
+}
+.delete 
+{ 
+    background-color: lightgreen;
+    width: 75px;
+    border-radius: 5px;
+    height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.delete:hover
+{ 
+    background-color: lightblue;
+}
